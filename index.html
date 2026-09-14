@@ -14,77 +14,156 @@
         <h1>🏈 Quiniela NFL</h1>
         <p class="subtitle">Resultados, picks y posiciones en un solo lugar.</p>
       </div>
-      <div class="hero-week">
-        <span>Semana</span>
-        <strong id="current-week">1</strong>
+      <div class="week-navigator" aria-label="Selector de semana">
+        <button id="prev-week" class="week-arrow" type="button" aria-label="Semana anterior">‹</button>
+
+        <label class="week-select-wrap" for="week-select">
+          <span>Semana</span>
+          <select id="week-select" aria-label="Seleccionar semana"></select>
+        </label>
+
+        <button id="next-week" class="week-arrow" type="button" aria-label="Semana siguiente">›</button>
       </div>
     </div>
   </header>
 
   <main class="container">
     <nav class="tabs" aria-label="Secciones">
-      <button class="tab active" data-view="live">En vivo</button>
-      <button class="tab" data-view="picks">Picks</button>
-      <button class="tab" data-view="general">General</button>
-      <button class="tab" data-view="stats">Estadísticas</button>
+      <button class="tab active" data-view="live">🏈 En vivo</button>
+      <button class="tab" data-view="general">🏆 General</button>
+      <button class="tab" data-view="stats">📊 Estadísticas</button>
     </nav>
 
     <section id="live" class="view active">
-      <div class="section-title">
+      <div class="live-week-head">
         <div>
-          <p class="eyebrow">SEMANA 1</p>
-          <h2>Clasificación semanal</h2>
+          <p class="eyebrow" id="live-week-label">SEMANA 1</p>
+          <h2>Resultados de la semana</h2>
+          <p class="live-subtitle">Selecciona cualquier partido para ver los picks de todos.</p>
         </div>
-        <span class="badge" id="live-status">Sin resultados capturados</span>
-      </div>
 
-      <div class="summary-grid">
-        <div class="summary-card">
-          <span>Partidos</span>
-          <strong id="games-count">16</strong>
-        </div>
-        <div class="summary-card">
-          <span>Finalizados</span>
-          <strong id="finished-count">0</strong>
-        </div>
-        <div class="summary-card">
-          <span>Puntos máximos</span>
-          <strong id="max-points">48</strong>
+        <div class="live-refresh-block">
+          <button id="refresh-scores" class="refresh-button" type="button">
+            <span class="refresh-icon" aria-hidden="true">↻</span>
+            <span id="refresh-label">Actualizar</span>
+          </button>
+          <span id="last-updated" class="last-updated" aria-live="polite">
+            Resultados aún no actualizados desde la web.
+          </span>
         </div>
       </div>
 
-      <div id="ranking" class="card"></div>
-    </section>
+      <div class="week-progress">
+        <div class="progress-copy">
+          <strong><span id="finished-count">0</span> de <span id="games-count">16</span> partidos</strong>
+          <span id="progress-percent">0%</span>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <span id="progress-bar"></span>
+        </div>
+      </div>
 
-    <section id="picks" class="view">
-      <div class="section-title">
+      <div class="live-filters" aria-label="Filtrar partidos">
+        <button class="live-filter active" data-filter="all" type="button">
+          Todos <span id="filter-all-count">16</span>
+        </button>
+        <button class="live-filter" data-filter="final" type="button">
+          Finalizados <span id="filter-final-count">0</span>
+        </button>
+        <button class="live-filter" data-filter="live" type="button">
+          En vivo <span id="filter-live-count">0</span>
+        </button>
+        <button class="live-filter" data-filter="scheduled" type="button">
+          Pendientes <span id="filter-scheduled-count">16</span>
+        </button>
+      </div>
+
+      <div class="live-layout">
         <div>
-          <p class="eyebrow">SEMANA 1</p>
-          <h2>Vista completa de picks</h2>
+          <div id="live-games" class="live-games-grid"></div>
+          <div id="live-empty" class="card empty" hidden></div>
         </div>
+
+        <aside class="weekly-ranking-card">
+          <div class="ranking-title">
+            <span aria-hidden="true">🏆</span>
+            <div>
+              <span class="ranking-kicker">CLASIFICACIÓN</span>
+              <h3>Semanal</h3>
+            </div>
+          </div>
+          <div id="ranking"></div>
+        </aside>
       </div>
-      <p class="hint">Cada partido muestra el pronóstico de los 16 participantes. Los puntos aparecerán automáticamente cuando exista marcador.</p>
-      <div id="games" class="games-list"></div>
+
+      <span id="live-status" class="sr-only">Sin resultados capturados</span>
+      <span id="max-points" class="sr-only">48</span>
     </section>
 
     <section id="general" class="view">
-      <div class="section-title">
+      <div class="season-page-head">
         <div>
           <p class="eyebrow">TEMPORADA 2026</p>
           <h2>Clasificación general</h2>
+          <p>La tabla oficial de toda la temporada. No cambia al seleccionar otra semana en En vivo.</p>
+        </div>
+        <div class="season-lock-note">Temporada completa</div>
+      </div>
+
+      <div class="general-layout">
+        <div class="general-podium" id="general-podium"></div>
+
+        <div class="general-ranking-card">
+          <div class="general-ranking-head">
+            <div>
+              <span class="ranking-kicker">CAMPEONATO</span>
+              <h3>Tabla general</h3>
+            </div>
+            <span id="general-current-week" class="season-chip">Semana actual</span>
+          </div>
+          <div id="general-ranking"></div>
         </div>
       </div>
-      <div id="general-ranking" class="card"></div>
     </section>
 
     <section id="stats" class="view">
-      <h2>Estadísticas</h2>
-      <div class="card empty">
-        En los siguientes pasos agregaremos efectividad, picks perfectos,
-        rachas y estadísticas históricas.
+      <div class="season-page-head">
+        <div>
+          <p class="eyebrow">TEMPORADA 2026</p>
+          <h2>Estadísticas</h2>
+          <p>Desempeño semana por semana y resumen de la temporada.</p>
+        </div>
+        <div class="season-lock-note">18 semanas</div>
+      </div>
+
+      <div class="stats-layout">
+        <section class="stats-table-card">
+          <div class="stats-card-head">
+            <div>
+              <span class="ranking-kicker">EVOLUCIÓN</span>
+              <h3>Puntos por semana</h3>
+            </div>
+            <span class="stats-scroll-hint">Desliza horizontalmente →</span>
+          </div>
+          <div id="weekly-stats-table" class="stats-table-scroll"></div>
+        </section>
+
+        <aside id="season-summary" class="season-summary"></aside>
       </div>
     </section>
   </main>
+
+
+  <div id="game-modal" class="game-modal" hidden>
+    <button class="modal-backdrop" type="button" data-close-modal aria-label="Cerrar detalle"></button>
+    <section class="game-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-head">
+        <div id="modal-matchup"></div>
+        <button id="close-game-modal" class="modal-close" type="button" aria-label="Cerrar">×</button>
+      </div>
+      <div id="modal-picks" class="modal-picks"></div>
+    </section>
+  </div>
 
   <script src="js/app.js"></script>
 </body>

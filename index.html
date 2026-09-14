@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiniela NFL 2026</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">TEMPORADA 2026</p>
+      <h1>🏈 Quiniela NFL</h1>
+      <p>Resultados, picks y posiciones de la temporada.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="tabs" aria-label="Secciones">
+      <button class="tab active" data-view="live">En vivo</button>
+      <button class="tab" data-view="picks">Picks</button>
+      <button class="tab" data-view="general">General</button>
+      <button class="tab" data-view="stats">Estadísticas</button>
+    </nav>
+
+    <section id="live" class="view active">
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">SEMANA ACTUAL</p>
+          <h2>Clasificación en vivo</h2>
+        </div>
+        <span class="badge">Preparando datos</span>
+      </div>
+      <div id="ranking" class="card"></div>
+    </section>
+
+    <section id="picks" class="view">
+      <h2>Picks de la semana</h2>
+      <div class="card empty">Aquí aparecerá la vista completa de picks por partido.</div>
+    </section>
+
+    <section id="general" class="view">
+      <h2>Clasificación general</h2>
+      <div id="general-ranking" class="card"></div>
+    </section>
+
+    <section id="stats" class="view">
+      <h2>Estadísticas</h2>
+      <div class="card empty">Más adelante agregaremos efectividad, perfectos, rachas y más.</div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

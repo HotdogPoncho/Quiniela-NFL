@@ -1,0 +1,9 @@
+# Archivos locales
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+*.log

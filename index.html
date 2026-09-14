@@ -8,10 +8,16 @@
 </head>
 <body>
   <header class="hero">
-    <div>
-      <p class="eyebrow">TEMPORADA 2026</p>
-      <h1>🏈 Quiniela NFL</h1>
-      <p>Resultados, picks y posiciones de la temporada.</p>
+    <div class="hero-inner">
+      <div>
+        <p class="eyebrow">TEMPORADA 2026</p>
+        <h1>🏈 Quiniela NFL</h1>
+        <p class="subtitle">Resultados, picks y posiciones en un solo lugar.</p>
+      </div>
+      <div class="hero-week">
+        <span>Semana</span>
+        <strong id="current-week">1</strong>
+      </div>
     </div>
   </header>
 
@@ -26,27 +32,57 @@
     <section id="live" class="view active">
       <div class="section-title">
         <div>
-          <p class="eyebrow">SEMANA ACTUAL</p>
-          <h2>Clasificación en vivo</h2>
+          <p class="eyebrow">SEMANA 1</p>
+          <h2>Clasificación semanal</h2>
         </div>
-        <span class="badge">Preparando datos</span>
+        <span class="badge" id="live-status">Sin resultados capturados</span>
       </div>
+
+      <div class="summary-grid">
+        <div class="summary-card">
+          <span>Partidos</span>
+          <strong id="games-count">16</strong>
+        </div>
+        <div class="summary-card">
+          <span>Finalizados</span>
+          <strong id="finished-count">0</strong>
+        </div>
+        <div class="summary-card">
+          <span>Puntos máximos</span>
+          <strong id="max-points">48</strong>
+        </div>
+      </div>
+
       <div id="ranking" class="card"></div>
     </section>
 
     <section id="picks" class="view">
-      <h2>Picks de la semana</h2>
-      <div class="card empty">Aquí aparecerá la vista completa de picks por partido.</div>
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">SEMANA 1</p>
+          <h2>Vista completa de picks</h2>
+        </div>
+      </div>
+      <p class="hint">Cada partido muestra el pronóstico de los 16 participantes. Los puntos aparecerán automáticamente cuando exista marcador.</p>
+      <div id="games" class="games-list"></div>
     </section>
 
     <section id="general" class="view">
-      <h2>Clasificación general</h2>
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">TEMPORADA 2026</p>
+          <h2>Clasificación general</h2>
+        </div>
+      </div>
       <div id="general-ranking" class="card"></div>
     </section>
 
     <section id="stats" class="view">
       <h2>Estadísticas</h2>
-      <div class="card empty">Más adelante agregaremos efectividad, perfectos, rachas y más.</div>
+      <div class="card empty">
+        En los siguientes pasos agregaremos efectividad, picks perfectos,
+        rachas y estadísticas históricas.
+      </div>
     </section>
   </main>
 

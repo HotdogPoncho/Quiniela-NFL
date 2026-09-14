@@ -1,20 +1,26 @@
 # 🏈 Quiniela NFL 2026
 
-Dashboard web para visualizar la quiniela NFL durante las 18 semanas de temporada.
+Dashboard web de la quiniela NFL 2026.
 
-## Reglas de puntuación
+## Estado actual
 
-- 0 puntos: no se acierta al ganador.
-- 2 puntos: se acierta al ganador, pero no el rango de diferencia.
-- 3 puntos: se acierta al ganador y el rango de diferencia (`0-7` o `8+`).
-- Si el partido termina empatado, todos obtienen 0 puntos.
-- El punto de diferencia sólo se obtiene cuando también se acierta al ganador.
+La Semana 1 ya contiene los 16 partidos y los picks capturados en el Excel original.
 
-## Estructura inicial
+La página calcula automáticamente:
 
-- `index.html`: página principal.
+- 0 puntos si falla el ganador.
+- 2 puntos si acierta el ganador pero falla el rango.
+- 3 puntos si acierta ganador y rango (`0-7` o `8+`).
+- 0 puntos para todos cuando el marcador está empatado.
+
+## Archivos principales
+
+- `index.html`: interfaz.
 - `css/styles.css`: estilos.
-- `js/app.js`: comportamiento y cálculos de interfaz.
-- `data/season.json`: participantes y estructura de 18 semanas.
+- `js/app.js`: motor de puntuación y renderizado.
+- `data/season.json`: participantes y estructura de temporada.
+- `data/week-01.json`: partidos y picks de la Semana 1.
 
-Esta es la base inicial. Los picks, partidos y resultados en vivo se incorporarán en los siguientes pasos.
+## Próximo paso
+
+Validar el motor con marcadores reales y después automatizar la actualización desde el Excel / resultados NFL.

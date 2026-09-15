@@ -1596,3 +1596,22 @@ body.modal-open {
 .refresh-button.is-success .refresh-icon::before {
   font-size: 1.1rem;
 }
+
+/* Acciones de resultados */
+.live-action-buttons {
+  display: flex;
+  gap: 0.65rem;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.refresh-button.secondary {
+  background: transparent;
+  color: inherit;
+  border: 1px solid currentColor;
+}
+
+.refresh-button.secondary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

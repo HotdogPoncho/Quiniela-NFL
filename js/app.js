@@ -6,6 +6,7 @@ const state = {
   selectedWeek: 1,
   weekData: null,
   currentWeekData: null,
+  seasonWeeks: new Map(),
   liveFilter: "all"
 };
 
@@ -100,37 +101,33 @@ function weekHasScoredGames(week) {
   );
 }
 
-function currentWeekProvisionalMap() {
+function pointsMapForWeek(week) {
+  if (!week) return new Map();
   const names = state.season.participants.map(p => p.name);
-
-  if (!state.currentWeekData || !weekHasScoredGames(state.currentWeekData)) {
-    return new Map();
-  }
-
-  return new Map(
-    buildWeeklyRanking(state.currentWeekData, names)
-      .map(row => [row.name, row.points])
-  );
+  return new Map(buildWeeklyRanking(week, names).map(row => [row.name, row.points]));
 }
 
 function participantWeeklyPoints(participant) {
   const totalWeeks = state.season.weeks;
-  const currentWeek = state.season.currentWeek;
-  const provisional = currentWeekProvisionalMap();
 
-  const points = Array.from({ length: totalWeeks }, (_, index) => {
+  return Array.from({ length: totalWeeks }, (_, index) => {
     const weekNumber = index + 1;
+    const week = state.seasonWeeks.get(weekNumber);
 
-    if (weekNumber > currentWeek) return null;
-
-    if (weekNumber === currentWeek && provisional.has(participant.name)) {
-      return provisional.get(participant.name);
+    // Cada week-XX.json es la fuente de verdad histórica. Si la semana actual
+    // fue refrescada, este mismo objeto contiene también los puntos provisionales.
+    if (week && weekHasScoredGames(week)) {
+      return pointsMapForWeek(week).get(participant.name) ?? 0;
     }
 
-    return Number(participant.weeklyPoints?.[index] || 0);
-  });
+    // Compatibilidad con temporadas históricas que aún sólo estén en season.json.
+    const stored = participant.weeklyPoints?.[index];
+    if (stored !== undefined && stored !== null && Number(stored) !== 0) {
+      return Number(stored);
+    }
 
-  return points;
+    return weekNumber <= state.season.currentWeek ? 0 : null;
+  });
 }
 
 function seasonRows() {
@@ -708,6 +705,7 @@ function renderEmptyWeek(weekNumber) {
   });
 
   document.getElementById("refresh-scores").disabled = true;
+  document.getElementById("download-finals").disabled = true;
   document.getElementById("ranking").innerHTML =
     `<div class="empty">Semana ${weekNumber} aún sin datos</div>`;
 
@@ -733,6 +731,8 @@ function renderLoadedWeek() {
   const scheduledGames = week.games.filter(
     g => g.status !== "final" && g.status !== "live"
   ).length;
+
+  document.getElementById("download-finals").disabled = finishedGames === 0;
 
   const completion = totalGames
     ? Math.round((finishedGames / totalGames) * 100)
@@ -787,6 +787,11 @@ async function renderWeek(weekNumber) {
   if (!state.weekData) {
     renderEmptyWeek(weekNumber);
     return;
+  }
+
+  state.seasonWeeks.set(weekNumber, state.weekData);
+  if (weekNumber === state.season.currentWeek) {
+    state.currentWeekData = state.weekData;
   }
 
   renderLoadedWeek();
@@ -890,6 +895,36 @@ function setRefreshFeedback(type, message) {
   }, 2600);
 }
 
+function downloadFinalizedWeek() {
+  if (!state.weekData) return;
+
+  const finalized = structuredClone(state.weekData);
+
+  finalized.games = finalized.games.map(game => {
+    if (game.status === "final") return game;
+
+    // Nunca persistimos un marcador provisional como si fuera definitivo.
+    return {
+      ...game,
+      awayScore: null,
+      homeScore: null,
+      status: "scheduled",
+      liveDetail: null
+    };
+  });
+
+  const text = JSON.stringify(finalized, null, 2) + "\n";
+  const blob = new Blob([text], { type: "application/json;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `week-${String(state.selectedWeek).padStart(2, "0")}.json`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
 async function refreshScores() {
   if (!state.weekData) return;
 
@@ -927,10 +962,11 @@ async function refreshScores() {
       );
     }
 
+    state.seasonWeeks.set(week, state.weekData);
     if (week === state.season.currentWeek) {
       state.currentWeekData = state.weekData;
-      renderSeasonViews();
     }
+    renderSeasonViews();
 
     renderLoadedWeek();
 
@@ -960,7 +996,13 @@ async function init() {
   const seasonResponse = await fetch("data/season.json", { cache: "no-store" });
   state.season = await seasonResponse.json();
 
-  state.currentWeekData = await loadWeekData(state.season.currentWeek);
+  const loadedWeeks = await Promise.all(
+    Array.from({ length: state.season.weeks }, (_, index) => loadWeekData(index + 1))
+  );
+  loadedWeeks.forEach((week, index) => {
+    if (week) state.seasonWeeks.set(index + 1, week);
+  });
+  state.currentWeekData = state.seasonWeeks.get(state.season.currentWeek) || null;
 
   const initialWeek = getWeekFromUrl(
     state.season.currentWeek,
@@ -998,6 +1040,11 @@ async function init() {
   document.getElementById("refresh-scores").addEventListener(
     "click",
     refreshScores
+  );
+
+  document.getElementById("download-finals").addEventListener(
+    "click",
+    downloadFinalizedWeek
   );
 
   document.getElementById("close-game-modal").addEventListener(

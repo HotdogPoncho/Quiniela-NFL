@@ -3,12 +3,12 @@
   "status": "open",
   "games": [
     {
-      "id": "w1-g01",
+      "id": "w01-g01",
       "away": "NE",
       "home": "SEA",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 10,
+      "homeScore": 13,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "SEA",
@@ -55,34 +55,37 @@
           "margin": null
         },
         "Julio": {
-          "winner": "NE",
-          "margin": "0-7"
+          "winner": "SEA",
+          "margin": "8+"
         },
         "Ricardo Reis": {
           "winner": "NE",
           "margin": "0-7"
         },
         "Pablo": {
-          "winner": "SEA",
-          "margin": "8+"
+          "winner": "NE",
+          "margin": "0-7"
         },
         "Ariel": {
           "winner": "SEA",
-          "margin": "0-7"
+          "margin": "8+"
         },
         "Yair": {
           "winner": "SEA",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-10T00:20Z",
+      "venue": "Lumen Field"
     },
     {
-      "id": "w1-g02",
+      "id": "w01-g02",
       "away": "SF",
       "home": "LAR",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 27,
+      "homeScore": 7,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "LAR",
@@ -129,34 +132,37 @@
           "margin": null
         },
         "Julio": {
-          "winner": "LAR",
-          "margin": "8+"
-        },
-        "Ricardo Reis": {
           "winner": "SF",
           "margin": "0-7"
         },
-        "Pablo": {
+        "Ricardo Reis": {
           "winner": "LAR",
+          "margin": "8+"
+        },
+        "Pablo": {
+          "winner": "SF",
           "margin": "0-7"
         },
         "Ariel": {
           "winner": "LAR",
-          "margin": "8+"
+          "margin": "0-7"
         },
         "Yair": {
           "winner": "LAR",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-11T00:35Z",
+      "venue": "Melbourne Cricket Ground"
     },
     {
-      "id": "w1-g03",
+      "id": "w01-g03",
       "away": "TB",
       "home": "CIN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 27,
+      "homeScore": 33,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CIN",
@@ -204,11 +210,11 @@
         },
         "Julio": {
           "winner": "CIN",
-          "margin": "8+"
+          "margin": "0-7"
         },
         "Ricardo Reis": {
           "winner": "CIN",
-          "margin": "0-7"
+          "margin": "8+"
         },
         "Pablo": {
           "winner": "CIN",
@@ -222,15 +228,18 @@
           "winner": "CIN",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T17:00Z",
+      "venue": "Paycor Stadium"
     },
     {
-      "id": "w1-g04",
+      "id": "w01-g04",
       "away": "NO",
       "home": "DET",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 30,
+      "homeScore": 31,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DET",
@@ -296,15 +305,18 @@
           "winner": "DET",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T17:00Z",
+      "venue": "Ford Field"
     },
     {
-      "id": "w1-g05",
+      "id": "w01-g05",
       "away": "NYJ",
       "home": "TEN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 23,
+      "homeScore": 10,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "TEN",
@@ -351,15 +363,15 @@
           "margin": null
         },
         "Julio": {
-          "winner": "TEN",
-          "margin": "8+"
-        },
-        "Ricardo Reis": {
           "winner": "NYJ",
           "margin": "0-7"
         },
-        "Pablo": {
+        "Ricardo Reis": {
           "winner": "TEN",
+          "margin": "8+"
+        },
+        "Pablo": {
+          "winner": "NYJ",
           "margin": "0-7"
         },
         "Ariel": {
@@ -370,15 +382,18 @@
           "winner": "TEN",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T17:00Z",
+      "venue": "Nissan Stadium"
     },
     {
-      "id": "w1-g06",
+      "id": "w01-g06",
       "away": "BAL",
       "home": "IND",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 41,
+      "homeScore": 23,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "BAL",
@@ -426,15 +441,15 @@
         },
         "Julio": {
           "winner": "BAL",
-          "margin": "0-7"
+          "margin": "8+"
         },
         "Ricardo Reis": {
           "winner": "BAL",
-          "margin": "8+"
+          "margin": "0-7"
         },
         "Pablo": {
           "winner": "BAL",
-          "margin": "0-7"
+          "margin": "8+"
         },
         "Ariel": {
           "winner": "BAL",
@@ -444,15 +459,18 @@
           "winner": "BAL",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T17:00Z",
+      "venue": "Lucas Oil Stadium"
     },
     {
-      "id": "w1-g07",
+      "id": "w01-g07",
       "away": "ATL",
       "home": "PIT",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 13,
+      "homeScore": 20,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "PIT",
@@ -499,34 +517,37 @@
           "margin": null
         },
         "Julio": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Ricardo Reis": {
           "winner": "ATL",
           "margin": "0-7"
         },
-        "Ricardo Reis": {
-          "winner": "PIT",
-          "margin": "0-7"
-        },
         "Pablo": {
           "winner": "PIT",
           "margin": "0-7"
         },
         "Ariel": {
           "winner": "PIT",
-          "margin": "8+"
+          "margin": "0-7"
         },
         "Yair": {
           "winner": "PIT",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T17:00Z",
+      "venue": "Acrisure Stadium"
     },
     {
-      "id": "w1-g08",
+      "id": "w01-g08",
       "away": "CHI",
       "home": "CAR",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 59,
+      "homeScore": 37,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CHI",
@@ -573,16 +594,16 @@
           "margin": null
         },
         "Julio": {
-          "winner": "CAR",
+          "winner": "CHI",
           "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": "CHI",
+          "winner": "CAR",
           "margin": "0-7"
         },
         "Pablo": {
           "winner": "CHI",
-          "margin": "8+"
+          "margin": "0-7"
         },
         "Ariel": {
           "winner": "CHI",
@@ -592,15 +613,18 @@
           "winner": "CHI",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T17:00Z",
+      "venue": "Bank of America Stadium"
     },
     {
-      "id": "w1-g09",
+      "id": "w01-g09",
       "away": "CLE",
       "home": "JAC",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 10,
+      "homeScore": 34,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "JAC",
@@ -648,11 +672,11 @@
         },
         "Julio": {
           "winner": "JAC",
-          "margin": "8+"
+          "margin": "0-7"
         },
         "Ricardo Reis": {
           "winner": "JAC",
-          "margin": "0-7"
+          "margin": "8+"
         },
         "Pablo": {
           "winner": "JAC",
@@ -660,21 +684,24 @@
         },
         "Ariel": {
           "winner": "JAC",
-          "margin": "8+"
+          "margin": "0-7"
         },
         "Yair": {
           "winner": "JAC",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T17:00Z",
+      "venue": "EverBank Stadium"
     },
     {
-      "id": "w1-g10",
+      "id": "w01-g10",
       "away": "BUF",
       "home": "HOU",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 36,
+      "homeScore": 31,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "HOU",
@@ -722,33 +749,36 @@
         },
         "Julio": {
           "winner": "BUF",
-          "margin": "8+"
-        },
-        "Ricardo Reis": {
-          "winner": "HOU",
           "margin": "0-7"
         },
-        "Pablo": {
+        "Ricardo Reis": {
           "winner": "BUF",
           "margin": "8+"
         },
-        "Ariel": {
+        "Pablo": {
           "winner": "HOU",
           "margin": "0-7"
+        },
+        "Ariel": {
+          "winner": "BUF",
+          "margin": "8+"
         },
         "Yair": {
           "winner": "HOU",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T17:00Z",
+      "venue": "Reliant Stadium"
     },
     {
-      "id": "w1-g11",
+      "id": "w01-g11",
       "away": "MIA",
       "home": "LV",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 13,
+      "homeScore": 27,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "LV",
@@ -795,12 +825,12 @@
           "margin": null
         },
         "Julio": {
-          "winner": "LV",
+          "winner": "MIA",
           "margin": "8+"
         },
         "Ricardo Reis": {
           "winner": "LV",
-          "margin": "0-7"
+          "margin": "8+"
         },
         "Pablo": {
           "winner": "LV",
@@ -814,15 +844,18 @@
           "winner": "LV",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T20:25Z",
+      "venue": "Allegiant Stadium"
     },
     {
-      "id": "w1-g12",
+      "id": "w01-g12",
       "away": "GB",
       "home": "MIN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 22,
+      "homeScore": 39,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "GB",
@@ -873,30 +906,33 @@
           "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": "MIN",
+          "winner": "GB",
           "margin": "0-7"
         },
         "Pablo": {
-          "winner": "GB",
+          "winner": "MIN",
           "margin": "0-7"
         },
         "Ariel": {
           "winner": "GB",
-          "margin": "8+"
+          "margin": "0-7"
         },
         "Yair": {
           "winner": "GB",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T20:25Z",
+      "venue": "U.S. Bank Stadium"
     },
     {
-      "id": "w1-g13",
+      "id": "w01-g13",
       "away": "WAS",
       "home": "PHI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 22,
+      "homeScore": 24,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "PHI",
@@ -943,34 +979,37 @@
           "margin": null
         },
         "Julio": {
-          "winner": "WAS",
-          "margin": "0-7"
+          "winner": "PHI",
+          "margin": "8+"
         },
         "Ricardo Reis": {
-          "winner": "PHI",
+          "winner": "WAS",
           "margin": "0-7"
         },
         "Pablo": {
-          "winner": "WAS",
+          "winner": "PHI",
           "margin": "0-7"
         },
         "Ariel": {
-          "winner": "PHI",
+          "winner": "WAS",
           "margin": "0-7"
         },
         "Yair": {
           "winner": "PHI",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T20:25Z",
+      "venue": "Lincoln Financial Field"
     },
     {
-      "id": "w1-g14",
+      "id": "w01-g14",
       "away": "ARI",
       "home": "LAC",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 26,
+      "homeScore": 14,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "LAC",
@@ -1022,7 +1061,7 @@
         },
         "Ricardo Reis": {
           "winner": "LAC",
-          "margin": "8+"
+          "margin": "0-7"
         },
         "Pablo": {
           "winner": "LAC",
@@ -1036,15 +1075,18 @@
           "winner": "LAC",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-13T20:25Z",
+      "venue": "SoFi Stadium"
     },
     {
-      "id": "w1-g15",
+      "id": "w01-g15",
       "away": "DAL",
       "home": "NYG",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 20,
+      "homeScore": 28,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DAL",
@@ -1091,11 +1133,11 @@
           "margin": null
         },
         "Julio": {
-          "winner": "NYG",
-          "margin": "0-7"
+          "winner": "DAL",
+          "margin": "8+"
         },
         "Ricardo Reis": {
-          "winner": "DAL",
+          "winner": "NYG",
           "margin": "0-7"
         },
         "Pablo": {
@@ -1110,15 +1152,18 @@
           "winner": "DAL",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-14T00:20Z",
+      "venue": "MetLife Stadium"
     },
     {
-      "id": "w1-g16",
+      "id": "w01-g16",
       "away": "DEN",
       "home": "KC",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 10,
+      "homeScore": 31,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DEN",
@@ -1165,15 +1210,15 @@
           "margin": null
         },
         "Julio": {
-          "winner": "DEN",
+          "winner": "KC",
           "margin": "8+"
         },
         "Ricardo Reis": {
-          "winner": "KC",
-          "margin": "0-7"
+          "winner": "DEN",
+          "margin": "8+"
         },
         "Pablo": {
-          "winner": "DEN",
+          "winner": "KC",
           "margin": "0-7"
         },
         "Ariel": {
@@ -1184,7 +1229,10 @@
           "winner": "DEN",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-15T00:15Z",
+      "venue": "Arrowhead Stadium"
     }
   ]
 }

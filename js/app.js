@@ -287,10 +287,52 @@ function renderModalGame(game) {
     <h2 id="modal-title">Picks del partido</h2>
   `;
 
-  const rows = participants.map(name => {
+  const awayCount = participants.filter(
+    name => normalize(game.picks?.[name]?.winner) === game.away
+  ).length;
+
+  const homeCount = participants.filter(
+    name => normalize(game.picks?.[name]?.winner) === game.home
+  ).length;
+
+  const totalPicks = awayCount + homeCount;
+  const awayPercent = totalPicks ? (awayCount / totalPicks) * 100 : 50;
+  const homePercent = totalPicks ? (homeCount / totalPicks) * 100 : 50;
+
+  document.getElementById("modal-pick-summary").innerHTML = `
+    <div class="pick-summary-teams">
+      <span>
+        <img src="${teamLogoUrl(game.away)}" alt="">
+        <strong>${game.away}</strong>
+        <b>${awayCount}</b> picks
+      </span>
+      <span>
+        <b>${homeCount}</b> picks
+        <strong>${game.home}</strong>
+        <img src="${teamLogoUrl(game.home)}" alt="">
+      </span>
+    </div>
+    <div class="pick-summary-bar" aria-label="Distribución de picks">
+      <span class="pick-summary-away" style="width:${awayPercent}%"></span>
+      <span class="pick-summary-home" style="width:${homePercent}%"></span>
+    </div>
+  `;
+
+  const evaluatedParticipants = participants.map((name, originalIndex) => {
     const pick = game.picks?.[name];
     const result = evaluatePick(game, pick);
+    return { name, pick, result, originalIndex };
+  });
 
+  if (hasScore) {
+    evaluatedParticipants.sort((a, b) => {
+      const aPoints = a.result.points ?? -1;
+      const bPoints = b.result.points ?? -1;
+      return bPoints - aPoints || a.originalIndex - b.originalIndex;
+    });
+  }
+
+  const rows = evaluatedParticipants.map(({ name, pick, result }) => {
     let pointLabel = "—";
     let pointClass = "pending";
 

@@ -1495,3 +1495,76 @@ body.modal-open {
     display: none;
   }
 }
+
+
+/* Mejora puntual: distribución de picks dentro del modal */
+.modal-pick-summary {
+  margin: 14px 18px 0;
+  padding: 12px 14px;
+  border: 1px solid #203951;
+  border-radius: 13px;
+  background: #0e1c2c;
+}
+
+.pick-summary-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  color: #91a6bd;
+  font-size: .75rem;
+}
+
+.pick-summary-teams > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pick-summary-teams img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.pick-summary-teams strong {
+  color: #edf6ff;
+}
+
+.pick-summary-teams b {
+  color: #8cc6ff;
+  font-size: .9rem;
+}
+
+.pick-summary-bar {
+  display: flex;
+  height: 7px;
+  margin-top: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #17283e;
+}
+
+.pick-summary-away {
+  background: #3188df;
+}
+
+.pick-summary-home {
+  background: #6959d8;
+}
+
+@media (max-width: 520px) {
+  .modal-pick-summary {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .pick-summary-teams {
+    font-size: .68rem;
+  }
+
+  .pick-summary-teams img {
+    width: 20px;
+    height: 20px;
+  }
+}

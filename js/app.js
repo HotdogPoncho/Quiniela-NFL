@@ -854,6 +854,42 @@ function mergeWebScores(localWeek, webGames) {
   return matched;
 }
 
+
+let refreshFeedbackTimer = null;
+
+function setRefreshFeedback(type, message) {
+  const button = document.getElementById("refresh-scores");
+  const label = document.getElementById("refresh-label");
+  const updated = document.getElementById("last-updated");
+
+  if (!button || !label || !updated) return;
+
+  button.classList.remove("is-success", "is-error");
+
+  if (type === "loading") {
+    label.textContent = "Actualizando...";
+    return;
+  }
+
+  if (type === "success") {
+    button.classList.add("is-success");
+    label.textContent = "Actualizado";
+    updated.textContent = message || "Actualizado hace unos segundos.";
+  }
+
+  if (type === "error") {
+    button.classList.add("is-error");
+    label.textContent = "Error al actualizar";
+    updated.textContent = message || "No se pudieron actualizar los resultados.";
+  }
+
+  clearTimeout(refreshFeedbackTimer);
+  refreshFeedbackTimer = setTimeout(() => {
+    button.classList.remove("is-success", "is-error");
+    label.textContent = "Actualizar";
+  }, 2600);
+}
+
 async function refreshScores() {
   if (!state.weekData) return;
 
@@ -863,6 +899,7 @@ async function refreshScores() {
 
   button.disabled = true;
   button.classList.add("is-loading");
+  setRefreshFeedback("loading");
   label.textContent = "Actualizando...";
   lastUpdated.textContent = "Consultando resultados NFL...";
 
@@ -905,7 +942,10 @@ async function refreshScores() {
 
     lastUpdated.textContent =
       `Actualizado ${time} · ${matched} partido${matched === 1 ? "" : "s"} encontrado${matched === 1 ? "" : "s"}.`;
+  
+    setRefreshFeedback("success", "Actualizado hace unos segundos.");
   } catch (error) {
+    setRefreshFeedback("error", "No se pudieron actualizar los resultados.");
     console.error(error);
     lastUpdated.textContent =
       "No se pudieron actualizar los resultados. Intenta nuevamente.";

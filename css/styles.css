@@ -1568,3 +1568,31 @@ body.modal-open {
     height: 20px;
   }
 }
+
+
+/* Mejora puntual: feedback visual del botón Actualizar */
+.refresh-button.is-success {
+  background: linear-gradient(135deg, #159052, #0f713f);
+  border-color: #42c77d;
+}
+
+.refresh-button.is-error {
+  background: linear-gradient(135deg, #b72d38, #8f202b);
+  border-color: #e15a63;
+}
+
+.refresh-button.is-success .refresh-icon {
+  animation: none;
+}
+
+.refresh-button.is-success .refresh-icon::before {
+  content: "✓";
+}
+
+.refresh-button.is-success .refresh-icon {
+  font-size: 0;
+}
+
+.refresh-button.is-success .refresh-icon::before {
+  font-size: 1.1rem;
+}

@@ -1495,3 +1495,121 @@ body.modal-open {
     display: none;
   }
 }
+
+.modal-pick-summary {
+  margin: 14px 18px 0;
+  padding: 12px 14px;
+  border: 1px solid #203951;
+  border-radius: 13px;
+  background: #0e1c2c;
+}
+
+.pick-summary-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  color: #91a6bd;
+  font-size: .75rem;
+}
+
+.pick-summary-teams > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pick-summary-teams img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.pick-summary-teams strong {
+  color: #edf6ff;
+}
+
+.pick-summary-teams b {
+  color: #8cc6ff;
+  font-size: .9rem;
+}
+
+.pick-summary-bar {
+  display: flex;
+  height: 7px;
+  margin-top: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #17283e;
+}
+
+.pick-summary-away {
+  background: #3188df;
+}
+
+.pick-summary-home {
+  background: #6959d8;
+}
+
+@media (max-width: 520px) {
+  .modal-pick-summary {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .pick-summary-teams {
+    font-size: .68rem;
+  }
+
+  .pick-summary-teams img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+/* Mejora puntual: feedback visual del botón Actualizar */
+.refresh-button.is-success {
+  background: linear-gradient(135deg, #159052, #0f713f);
+  border-color: #42c77d;
+}
+
+.refresh-button.is-error {
+  background: linear-gradient(135deg, #b72d38, #8f202b);
+  border-color: #e15a63;
+}
+
+.refresh-button.is-success .refresh-icon {
+  animation: none;
+}
+
+.refresh-button.is-success .refresh-icon::before {
+  content: "✓";
+}
+
+.refresh-button.is-success .refresh-icon {
+  font-size: 0;
+}
+
+.refresh-button.is-success .refresh-icon::before {
+  font-size: 1.1rem;
+}
+
+/* Acciones de resultados */
+.live-action-buttons {
+  display: flex;
+  gap: 0.65rem;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.refresh-button.secondary {
+  background: transparent;
+  color: inherit;
+  border: 1px solid currentColor;
+}
+
+.refresh-button.secondary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

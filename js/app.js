@@ -6,6 +6,7 @@ const state = {
   selectedWeek: 1,
   weekData: null,
   currentWeekData: null,
+  seasonWeeks: new Map(),
   liveFilter: "all"
 };
 
@@ -100,37 +101,33 @@ function weekHasScoredGames(week) {
   );
 }
 
-function currentWeekProvisionalMap() {
+function pointsMapForWeek(week) {
+  if (!week) return new Map();
   const names = state.season.participants.map(p => p.name);
-
-  if (!state.currentWeekData || !weekHasScoredGames(state.currentWeekData)) {
-    return new Map();
-  }
-
-  return new Map(
-    buildWeeklyRanking(state.currentWeekData, names)
-      .map(row => [row.name, row.points])
-  );
+  return new Map(buildWeeklyRanking(week, names).map(row => [row.name, row.points]));
 }
 
 function participantWeeklyPoints(participant) {
   const totalWeeks = state.season.weeks;
-  const currentWeek = state.season.currentWeek;
-  const provisional = currentWeekProvisionalMap();
 
-  const points = Array.from({ length: totalWeeks }, (_, index) => {
+  return Array.from({ length: totalWeeks }, (_, index) => {
     const weekNumber = index + 1;
+    const week = state.seasonWeeks.get(weekNumber);
 
-    if (weekNumber > currentWeek) return null;
-
-    if (weekNumber === currentWeek && provisional.has(participant.name)) {
-      return provisional.get(participant.name);
+    // Cada week-XX.json es la fuente de verdad histórica. Si la semana actual
+    // fue refrescada, este mismo objeto contiene también los puntos provisionales.
+    if (week && weekHasScoredGames(week)) {
+      return pointsMapForWeek(week).get(participant.name) ?? 0;
     }
 
-    return Number(participant.weeklyPoints?.[index] || 0);
-  });
+    // Compatibilidad con temporadas históricas que aún sólo estén en season.json.
+    const stored = participant.weeklyPoints?.[index];
+    if (stored !== undefined && stored !== null && Number(stored) !== 0) {
+      return Number(stored);
+    }
 
-  return points;
+    return weekNumber <= state.season.currentWeek ? 0 : null;
+  });
 }
 
 function seasonRows() {
@@ -287,10 +284,52 @@ function renderModalGame(game) {
     <h2 id="modal-title">Picks del partido</h2>
   `;
 
-  const rows = participants.map(name => {
+  const awayCount = participants.filter(
+    name => normalize(game.picks?.[name]?.winner) === game.away
+  ).length;
+
+  const homeCount = participants.filter(
+    name => normalize(game.picks?.[name]?.winner) === game.home
+  ).length;
+
+  const totalPicks = awayCount + homeCount;
+  const awayPercent = totalPicks ? (awayCount / totalPicks) * 100 : 50;
+  const homePercent = totalPicks ? (homeCount / totalPicks) * 100 : 50;
+
+  document.getElementById("modal-pick-summary").innerHTML = `
+    <div class="pick-summary-teams">
+      <span>
+        <img src="${teamLogoUrl(game.away)}" alt="">
+        <strong>${game.away}</strong>
+        <b>${awayCount}</b> picks
+      </span>
+      <span>
+        <b>${homeCount}</b> picks
+        <strong>${game.home}</strong>
+        <img src="${teamLogoUrl(game.home)}" alt="">
+      </span>
+    </div>
+    <div class="pick-summary-bar" aria-label="Distribución de picks">
+      <span class="pick-summary-away" style="width:${awayPercent}%"></span>
+      <span class="pick-summary-home" style="width:${homePercent}%"></span>
+    </div>
+  `;
+
+  const evaluatedParticipants = participants.map((name, originalIndex) => {
     const pick = game.picks?.[name];
     const result = evaluatePick(game, pick);
+    return { name, pick, result, originalIndex };
+  });
 
+  if (hasScore) {
+    evaluatedParticipants.sort((a, b) => {
+      const aPoints = a.result.points ?? -1;
+      const bPoints = b.result.points ?? -1;
+      return bPoints - aPoints || a.originalIndex - b.originalIndex;
+    });
+  }
+
+  const rows = evaluatedParticipants.map(({ name, pick, result }) => {
     let pointLabel = "—";
     let pointClass = "pending";
 
@@ -666,6 +705,7 @@ function renderEmptyWeek(weekNumber) {
   });
 
   document.getElementById("refresh-scores").disabled = true;
+  document.getElementById("download-finals").disabled = true;
   document.getElementById("ranking").innerHTML =
     `<div class="empty">Semana ${weekNumber} aún sin datos</div>`;
 
@@ -691,6 +731,8 @@ function renderLoadedWeek() {
   const scheduledGames = week.games.filter(
     g => g.status !== "final" && g.status !== "live"
   ).length;
+
+  document.getElementById("download-finals").disabled = finishedGames === 0;
 
   const completion = totalGames
     ? Math.round((finishedGames / totalGames) * 100)
@@ -745,6 +787,11 @@ async function renderWeek(weekNumber) {
   if (!state.weekData) {
     renderEmptyWeek(weekNumber);
     return;
+  }
+
+  state.seasonWeeks.set(weekNumber, state.weekData);
+  if (weekNumber === state.season.currentWeek) {
+    state.currentWeekData = state.weekData;
   }
 
   renderLoadedWeek();
@@ -812,6 +859,72 @@ function mergeWebScores(localWeek, webGames) {
   return matched;
 }
 
+
+let refreshFeedbackTimer = null;
+
+function setRefreshFeedback(type, message) {
+  const button = document.getElementById("refresh-scores");
+  const label = document.getElementById("refresh-label");
+  const updated = document.getElementById("last-updated");
+
+  if (!button || !label || !updated) return;
+
+  button.classList.remove("is-success", "is-error");
+
+  if (type === "loading") {
+    label.textContent = "Actualizando...";
+    return;
+  }
+
+  if (type === "success") {
+    button.classList.add("is-success");
+    label.textContent = "Actualizado";
+    updated.textContent = message || "Actualizado hace unos segundos.";
+  }
+
+  if (type === "error") {
+    button.classList.add("is-error");
+    label.textContent = "Error al actualizar";
+    updated.textContent = message || "No se pudieron actualizar los resultados.";
+  }
+
+  clearTimeout(refreshFeedbackTimer);
+  refreshFeedbackTimer = setTimeout(() => {
+    button.classList.remove("is-success", "is-error");
+    label.textContent = "Actualizar";
+  }, 2600);
+}
+
+function downloadFinalizedWeek() {
+  if (!state.weekData) return;
+
+  const finalized = structuredClone(state.weekData);
+
+  finalized.games = finalized.games.map(game => {
+    if (game.status === "final") return game;
+
+    // Nunca persistimos un marcador provisional como si fuera definitivo.
+    return {
+      ...game,
+      awayScore: null,
+      homeScore: null,
+      status: "scheduled",
+      liveDetail: null
+    };
+  });
+
+  const text = JSON.stringify(finalized, null, 2) + "\n";
+  const blob = new Blob([text], { type: "application/json;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `week-${String(state.selectedWeek).padStart(2, "0")}.json`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
 async function refreshScores() {
   if (!state.weekData) return;
 
@@ -821,6 +934,7 @@ async function refreshScores() {
 
   button.disabled = true;
   button.classList.add("is-loading");
+  setRefreshFeedback("loading");
   label.textContent = "Actualizando...";
   lastUpdated.textContent = "Consultando resultados NFL...";
 
@@ -848,10 +962,11 @@ async function refreshScores() {
       );
     }
 
+    state.seasonWeeks.set(week, state.weekData);
     if (week === state.season.currentWeek) {
       state.currentWeekData = state.weekData;
-      renderSeasonViews();
     }
+    renderSeasonViews();
 
     renderLoadedWeek();
 
@@ -863,7 +978,10 @@ async function refreshScores() {
 
     lastUpdated.textContent =
       `Actualizado ${time} · ${matched} partido${matched === 1 ? "" : "s"} encontrado${matched === 1 ? "" : "s"}.`;
+  
+    setRefreshFeedback("success", "Actualizado hace unos segundos.");
   } catch (error) {
+    setRefreshFeedback("error", "No se pudieron actualizar los resultados.");
     console.error(error);
     lastUpdated.textContent =
       "No se pudieron actualizar los resultados. Intenta nuevamente.";
@@ -878,7 +996,13 @@ async function init() {
   const seasonResponse = await fetch("data/season.json", { cache: "no-store" });
   state.season = await seasonResponse.json();
 
-  state.currentWeekData = await loadWeekData(state.season.currentWeek);
+  const loadedWeeks = await Promise.all(
+    Array.from({ length: state.season.weeks }, (_, index) => loadWeekData(index + 1))
+  );
+  loadedWeeks.forEach((week, index) => {
+    if (week) state.seasonWeeks.set(index + 1, week);
+  });
+  state.currentWeekData = state.seasonWeeks.get(state.season.currentWeek) || null;
 
   const initialWeek = getWeekFromUrl(
     state.season.currentWeek,
@@ -916,6 +1040,11 @@ async function init() {
   document.getElementById("refresh-scores").addEventListener(
     "click",
     refreshScores
+  );
+
+  document.getElementById("download-finals").addEventListener(
+    "click",
+    downloadFinalizedWeek
   );
 
   document.getElementById("close-game-modal").addEventListener(

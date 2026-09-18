@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "weeks": 18,
-  "currentWeek": 1,
+  "currentWeek": 2,
   "participants": [
     {
       "name": "Alex",
@@ -212,29 +212,6 @@
     },
     {
       "name": "César Luna",
-      "weeklyPoints": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "name": "Fernando Lara",
       "weeklyPoints": [
         0,
         0,

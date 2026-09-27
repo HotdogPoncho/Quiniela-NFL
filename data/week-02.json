@@ -6,9 +6,9 @@
       "id": "w02-g01",
       "away": "DET",
       "home": "BUF",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 31,
+      "homeScore": 41,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "BUF",
@@ -70,15 +70,18 @@
           "winner": "BUF",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-18T00:15Z",
+      "venue": "Highmark Stadium"
     },
     {
       "id": "w02-g02",
       "away": "CAR",
       "home": "ATL",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 34,
+      "homeScore": 3,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CAR",
@@ -140,15 +143,18 @@
           "winner": "CAR",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T17:00Z",
+      "venue": "Mercedes-Benz Stadium"
     },
     {
       "id": "w02-g03",
       "away": "MIN",
       "home": "CHI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 9,
+      "homeScore": 3,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CHI",
@@ -210,15 +216,18 @@
           "winner": "CHI",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T17:00Z",
+      "venue": "Soldier Field"
     },
     {
       "id": "w02-g04",
       "away": "PHI",
       "home": "TEN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 24,
+      "homeScore": 20,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "PHI",
@@ -280,15 +289,18 @@
           "winner": "PHI",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T17:00Z",
+      "venue": "Nissan Stadium"
     },
     {
       "id": "w02-g05",
       "away": "PIT",
       "home": "NE",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 3,
+      "homeScore": 20,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "NE",
@@ -350,15 +362,18 @@
           "winner": "PIT",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T17:00Z",
+      "venue": "Gillette Stadium"
     },
     {
       "id": "w02-g06",
       "away": "GB",
       "home": "NYJ",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 20,
+      "homeScore": 17,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "GB",
@@ -420,15 +435,18 @@
           "winner": "GB",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T17:00Z",
+      "venue": "MetLife Stadium"
     },
     {
       "id": "w02-g07",
       "away": "CLE",
       "home": "TB",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 23,
+      "homeScore": 19,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "TB",
@@ -490,15 +508,18 @@
           "winner": "TB",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T17:00Z",
+      "venue": "Raymond James Stadium"
     },
     {
       "id": "w02-g08",
       "away": "NO",
       "home": "BAL",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 24,
+      "homeScore": 17,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "BAL",
@@ -560,15 +581,18 @@
           "winner": "BAL",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T17:00Z",
+      "venue": "M&T Bank Stadium"
     },
     {
       "id": "w02-g09",
       "away": "CIN",
       "home": "HOU",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 20,
+      "homeScore": 6,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "HOU",
@@ -630,15 +654,18 @@
           "winner": "HOU",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T17:00Z",
+      "venue": "Reliant Stadium"
     },
     {
       "id": "w02-g10",
       "away": "JAC",
       "home": "DEN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 13,
+      "homeScore": 20,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "JAC",
@@ -700,15 +727,18 @@
           "winner": "DEN",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T20:05Z",
+      "venue": "Empower Field at Mile High"
     },
     {
       "id": "w02-g11",
       "away": "LV",
       "home": "LAC",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 26,
+      "homeScore": 14,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "LAC",
@@ -770,15 +800,18 @@
           "winner": "LAC",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T20:05Z",
+      "venue": "SoFi Stadium"
     },
     {
       "id": "w02-g12",
       "away": "WAS",
       "home": "DAL",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 20,
+      "homeScore": 37,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DAL",
@@ -840,15 +873,18 @@
           "winner": "DAL",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T20:25Z",
+      "venue": "AT&T Stadium"
     },
     {
       "id": "w02-g13",
       "away": "SEA",
       "home": "ARI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 31,
+      "homeScore": 7,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "SEA",
@@ -910,15 +946,18 @@
           "winner": "ARI",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T20:25Z",
+      "venue": "State Farm Stadium"
     },
     {
       "id": "w02-g14",
       "away": "MIA",
       "home": "SF",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 13,
+      "homeScore": 35,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "SF",
@@ -980,15 +1019,18 @@
           "winner": "SF",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-20T20:25Z",
+      "venue": "Levi's Stadium"
     },
     {
       "id": "w02-g15",
       "away": "IND",
       "home": "KC",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 30,
+      "homeScore": 33,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "KC",
@@ -1050,15 +1092,18 @@
           "winner": "KC",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-21T00:20Z",
+      "venue": "Arrowhead Stadium"
     },
     {
       "id": "w02-g16",
       "away": "NYG",
       "home": "LAR",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 6,
+      "homeScore": 28,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "LAR",
@@ -1120,7 +1165,10 @@
           "winner": "NYG",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-22T00:15Z",
+      "venue": "SoFi Stadium"
     }
   ]
 }

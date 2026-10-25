@@ -6,9 +6,9 @@
       "id": "w04-g01",
       "away": "PIT",
       "home": "CLE",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 24,
+      "homeScore": 27,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "PIT",
@@ -70,15 +70,18 @@
           "winner": "PIT",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-02T00:15Z",
+      "venue": "Huntington Bank Field"
     },
     {
       "id": "w04-g02",
       "away": "IND",
       "home": "WAS",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 30,
+      "homeScore": 13,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "IND",
@@ -140,15 +143,18 @@
           "winner": "IND",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T13:30Z",
+      "venue": "Tottenham Hotspur Stadium"
     },
     {
       "id": "w04-g03",
       "away": "NE",
       "home": "BUF",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 29,
+      "homeScore": 26,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "BUF",
@@ -210,15 +216,18 @@
           "winner": "BUF",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T17:00Z",
+      "venue": "Highmark Stadium"
     },
     {
       "id": "w04-g04",
       "away": "NYJ",
       "home": "CHI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 12,
+      "homeScore": 23,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CHI",
@@ -280,15 +289,18 @@
           "winner": "CHI",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T17:00Z",
+      "venue": "Soldier Field"
     },
     {
       "id": "w04-g05",
       "away": "JAC",
       "home": "CIN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 22,
+      "homeScore": 17,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CIN",
@@ -350,15 +362,18 @@
           "winner": "JAC",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T17:00Z",
+      "venue": "Paycor Stadium"
     },
     {
       "id": "w04-g06",
       "away": "ARI",
       "home": "NYG",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 24,
+      "homeScore": 36,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "ARI",
@@ -420,15 +435,18 @@
           "winner": "ARI",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T17:00Z",
+      "venue": "MetLife Stadium"
     },
     {
       "id": "w04-g07",
       "away": "LAR",
       "home": "PHI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 24,
+      "homeScore": 20,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "LAR",
@@ -490,15 +508,18 @@
           "winner": "LAR",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T17:00Z",
+      "venue": "Lincoln Financial Field"
     },
     {
       "id": "w04-g08",
       "away": "GB",
       "home": "TB",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 17,
+      "homeScore": 14,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "GB",
@@ -560,15 +581,18 @@
           "winner": "TB",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T17:00Z",
+      "venue": "Raymond James Stadium"
     },
     {
       "id": "w04-g09",
       "away": "TEN",
       "home": "BAL",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 18,
+      "homeScore": 24,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "BAL",
@@ -630,15 +654,18 @@
           "winner": "BAL",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T17:00Z",
+      "venue": "M&T Bank Stadium"
     },
     {
       "id": "w04-g10",
       "away": "DAL",
       "home": "HOU",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 34,
+      "homeScore": 30,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DAL",
@@ -700,15 +727,18 @@
           "winner": "HOU",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T17:00Z",
+      "venue": "Reliant Stadium"
     },
     {
       "id": "w04-g11",
       "away": "MIA",
       "home": "MIN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 10,
+      "homeScore": 15,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "MIN",
@@ -770,15 +800,18 @@
           "winner": "MIN",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T20:05Z",
+      "venue": "U.S. Bank Stadium"
     },
     {
       "id": "w04-g12",
       "away": "KC",
       "home": "LV",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 30,
+      "homeScore": 27,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "KC",
@@ -840,15 +873,18 @@
           "winner": "KC",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T20:25Z",
+      "venue": "Allegiant Stadium"
     },
     {
       "id": "w04-g13",
       "away": "DEN",
       "home": "SF",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 14,
+      "homeScore": 24,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "SF",
@@ -910,15 +946,18 @@
           "winner": "SF",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T20:25Z",
+      "venue": "Levi's Stadium"
     },
     {
       "id": "w04-g14",
       "away": "LAC",
       "home": "SEA",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 23,
+      "homeScore": 30,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "SEA",
@@ -980,15 +1019,18 @@
           "winner": "SEA",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-04T20:25Z",
+      "venue": "Lumen Field"
     },
     {
       "id": "w04-g15",
       "away": "DET",
       "home": "CAR",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 26,
+      "homeScore": 32,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DET",
@@ -1050,15 +1092,18 @@
           "winner": "DET",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-05T00:20Z",
+      "venue": "Bank of America Stadium"
     },
     {
       "id": "w04-g16",
       "away": "ATL",
       "home": "NO",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 45,
+      "homeScore": 24,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "ATL",
@@ -1120,7 +1165,10 @@
           "winner": "ATL",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-06T00:15Z",
+      "venue": "Caesars Superdome"
     }
   ]
 }

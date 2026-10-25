@@ -6,9 +6,9 @@
       "id": "w03-g01",
       "away": "ATL",
       "home": "GB",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 35,
+      "homeScore": 14,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "GB",
@@ -70,15 +70,18 @@
           "winner": "GB",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-25T00:15Z",
+      "venue": "Lambeau Field"
     },
     {
       "id": "w03-g02",
       "away": "LAC",
       "home": "BUF",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 16,
+      "homeScore": 24,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "BUF",
@@ -140,15 +143,18 @@
           "winner": "BUF",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T17:00Z",
+      "venue": "Highmark Stadium"
     },
     {
       "id": "w03-g03",
       "away": "CAR",
       "home": "CLE",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 18,
+      "homeScore": 21,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CAR",
@@ -210,15 +216,18 @@
           "winner": "CAR",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T17:00Z",
+      "venue": "Huntington Bank Field"
     },
     {
       "id": "w03-g04",
       "away": "NYJ",
       "home": "DET",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 24,
+      "homeScore": 31,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DET",
@@ -280,15 +289,18 @@
           "winner": "DET",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T17:00Z",
+      "venue": "Ford Field"
     },
     {
       "id": "w03-g05",
       "away": "HOU",
       "home": "IND",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 17,
+      "homeScore": 19,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "HOU",
@@ -350,15 +362,18 @@
           "winner": "IND",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T17:00Z",
+      "venue": "Lucas Oil Stadium"
     },
     {
       "id": "w03-g06",
       "away": "KC",
       "home": "MIA",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 24,
+      "homeScore": 10,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "KC",
@@ -420,15 +435,18 @@
           "winner": "KC",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T17:00Z",
+      "venue": "Hard Rock Stadium"
     },
     {
       "id": "w03-g07",
       "away": "TEN",
       "home": "NYG",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 7,
+      "homeScore": 12,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "TEN",
@@ -490,15 +508,18 @@
           "winner": "TEN",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T17:00Z",
+      "venue": "MetLife Stadium"
     },
     {
       "id": "w03-g08",
       "away": "CIN",
       "home": "PIT",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 27,
+      "homeScore": 30,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CIN",
@@ -560,15 +581,18 @@
           "winner": "PIT",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T17:00Z",
+      "venue": "Acrisure Stadium"
     },
     {
       "id": "w03-g09",
       "away": "SEA",
       "home": "WAS",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 31,
+      "homeScore": 33,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "SEA",
@@ -630,15 +654,18 @@
           "winner": "SEA",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T17:00Z",
+      "venue": "Northwest Stadium"
     },
     {
       "id": "w03-g10",
       "away": "NE",
       "home": "JAC",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 6,
+      "homeScore": 35,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "JAC",
@@ -700,15 +727,18 @@
           "winner": "JAC",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T17:00Z",
+      "venue": "EverBank Stadium"
     },
     {
       "id": "w03-g11",
       "away": "ARI",
       "home": "SF",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 30,
+      "homeScore": 36,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "SF",
@@ -770,15 +800,18 @@
           "winner": "SF",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T20:05Z",
+      "venue": "Levi's Stadium"
     },
     {
       "id": "w03-g12",
       "away": "MIN",
       "home": "TB",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 23,
+      "homeScore": 16,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "MIN",
@@ -840,15 +873,18 @@
           "winner": "MIN",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T20:05Z",
+      "venue": "Raymond James Stadium"
     },
     {
       "id": "w03-g13",
       "away": "BAL",
       "home": "DAL",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 34,
+      "homeScore": 31,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DAL",
@@ -910,15 +946,18 @@
           "winner": "BAL",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T20:25Z",
+      "venue": "Maracanã Stadium"
     },
     {
       "id": "w03-g14",
       "away": "LV",
       "home": "NO",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 35,
+      "homeScore": 27,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "NO",
@@ -980,15 +1019,18 @@
           "winner": "NO",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-27T20:25Z",
+      "venue": "Caesars Superdome"
     },
     {
       "id": "w03-g15",
       "away": "LAR",
       "home": "DEN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 26,
+      "homeScore": 30,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "LAR",
@@ -1050,15 +1092,18 @@
           "winner": "LAR",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-28T00:20Z",
+      "venue": "Empower Field at Mile High"
     },
     {
       "id": "w03-g16",
       "away": "PHI",
       "home": "CHI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 7,
+      "homeScore": 27,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "PHI",
@@ -1120,7 +1165,10 @@
           "winner": "PHI",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-09-29T00:15Z",
+      "venue": "Soldier Field"
     }
   ]
 }

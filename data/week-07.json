@@ -4,302 +4,6 @@
   "games": [
     {
       "id": "w07-g01",
-      "away": "DEN",
-      "home": "ARI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
-      "picks": {
-        "Alex": {
-          "winner": null,
-          "margin": null
-        },
-        "Enrique": {
-          "winner": null,
-          "margin": null
-        },
-        "Oscar": {
-          "winner": null,
-          "margin": null
-        },
-        "Esteban": {
-          "winner": null,
-          "margin": null
-        },
-        "Luis": {
-          "winner": null,
-          "margin": null
-        },
-        "Toño": {
-          "winner": null,
-          "margin": null
-        },
-        "Rich": {
-          "winner": null,
-          "margin": null
-        },
-        "Poncho": {
-          "winner": null,
-          "margin": null
-        },
-        "Armando": {
-          "winner": null,
-          "margin": null
-        },
-        "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
-        },
-        "Julio": {
-          "winner": null,
-          "margin": null
-        },
-        "Ricardo Reis": {
-          "winner": null,
-          "margin": null
-        },
-        "Pablo": {
-          "winner": null,
-          "margin": null
-        },
-        "Ariel": {
-          "winner": null,
-          "margin": null
-        },
-        "Yair": {
-          "winner": null,
-          "margin": null
-        }
-      }
-    },
-    {
-      "id": "w07-g02",
-      "away": "SF",
-      "home": "ATL",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
-      "picks": {
-        "Alex": {
-          "winner": null,
-          "margin": null
-        },
-        "Enrique": {
-          "winner": null,
-          "margin": null
-        },
-        "Oscar": {
-          "winner": null,
-          "margin": null
-        },
-        "Esteban": {
-          "winner": null,
-          "margin": null
-        },
-        "Luis": {
-          "winner": null,
-          "margin": null
-        },
-        "Toño": {
-          "winner": null,
-          "margin": null
-        },
-        "Rich": {
-          "winner": null,
-          "margin": null
-        },
-        "Poncho": {
-          "winner": null,
-          "margin": null
-        },
-        "Armando": {
-          "winner": null,
-          "margin": null
-        },
-        "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
-        },
-        "Julio": {
-          "winner": null,
-          "margin": null
-        },
-        "Ricardo Reis": {
-          "winner": null,
-          "margin": null
-        },
-        "Pablo": {
-          "winner": null,
-          "margin": null
-        },
-        "Ariel": {
-          "winner": null,
-          "margin": null
-        },
-        "Yair": {
-          "winner": null,
-          "margin": null
-        }
-      }
-    },
-    {
-      "id": "w07-g03",
-      "away": "CIN",
-      "home": "BAL",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
-      "picks": {
-        "Alex": {
-          "winner": null,
-          "margin": null
-        },
-        "Enrique": {
-          "winner": null,
-          "margin": null
-        },
-        "Oscar": {
-          "winner": null,
-          "margin": null
-        },
-        "Esteban": {
-          "winner": null,
-          "margin": null
-        },
-        "Luis": {
-          "winner": null,
-          "margin": null
-        },
-        "Toño": {
-          "winner": null,
-          "margin": null
-        },
-        "Rich": {
-          "winner": null,
-          "margin": null
-        },
-        "Poncho": {
-          "winner": null,
-          "margin": null
-        },
-        "Armando": {
-          "winner": null,
-          "margin": null
-        },
-        "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
-        },
-        "Julio": {
-          "winner": null,
-          "margin": null
-        },
-        "Ricardo Reis": {
-          "winner": null,
-          "margin": null
-        },
-        "Pablo": {
-          "winner": null,
-          "margin": null
-        },
-        "Ariel": {
-          "winner": null,
-          "margin": null
-        },
-        "Yair": {
-          "winner": null,
-          "margin": null
-        }
-      }
-    },
-    {
-      "id": "w07-g04",
-      "away": "TB",
-      "home": "CAR",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
-      "picks": {
-        "Alex": {
-          "winner": null,
-          "margin": null
-        },
-        "Enrique": {
-          "winner": null,
-          "margin": null
-        },
-        "Oscar": {
-          "winner": null,
-          "margin": null
-        },
-        "Esteban": {
-          "winner": null,
-          "margin": null
-        },
-        "Luis": {
-          "winner": null,
-          "margin": null
-        },
-        "Toño": {
-          "winner": null,
-          "margin": null
-        },
-        "Rich": {
-          "winner": null,
-          "margin": null
-        },
-        "Poncho": {
-          "winner": null,
-          "margin": null
-        },
-        "Armando": {
-          "winner": null,
-          "margin": null
-        },
-        "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
-        },
-        "Julio": {
-          "winner": null,
-          "margin": null
-        },
-        "Ricardo Reis": {
-          "winner": null,
-          "margin": null
-        },
-        "Pablo": {
-          "winner": null,
-          "margin": null
-        },
-        "Ariel": {
-          "winner": null,
-          "margin": null
-        },
-        "Yair": {
-          "winner": null,
-          "margin": null
-        }
-      }
-    },
-    {
-      "id": "w07-g05",
       "away": "NE",
       "home": "CHI",
       "awayScore": null,
@@ -307,73 +11,209 @@
       "status": "scheduled",
       "picks": {
         "Alex": {
-          "winner": null,
-          "margin": null
+          "winner": "CHI",
+          "margin": "0-7"
         },
         "Enrique": {
-          "winner": null,
-          "margin": null
+          "winner": "NE",
+          "margin": "0-7"
         },
         "Oscar": {
-          "winner": null,
-          "margin": null
+          "winner": "CHI",
+          "margin": "0-7"
         },
         "Esteban": {
-          "winner": null,
-          "margin": null
+          "winner": "CHI",
+          "margin": "0-7"
         },
         "Luis": {
-          "winner": null,
-          "margin": null
+          "winner": "CHI",
+          "margin": "0-7"
         },
         "Toño": {
-          "winner": null,
-          "margin": null
+          "winner": "CHI",
+          "margin": "8+"
         },
         "Rich": {
           "winner": null,
           "margin": null
         },
         "Poncho": {
-          "winner": null,
-          "margin": null
+          "winner": "CHI",
+          "margin": "0-7"
         },
         "Armando": {
-          "winner": null,
-          "margin": null
+          "winner": "CHI",
+          "margin": "0-7"
         },
         "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
+          "winner": "NE",
+          "margin": "0-7"
         },
         "Julio": {
-          "winner": null,
-          "margin": null
+          "winner": "NE",
+          "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": null,
-          "margin": null
+          "winner": "CHI",
+          "margin": "8+"
         },
         "Pablo": {
-          "winner": null,
-          "margin": null
+          "winner": "NE",
+          "margin": "0-7"
         },
         "Ariel": {
-          "winner": null,
-          "margin": null
+          "winner": "NE",
+          "margin": "0-7"
         },
         "Yair": {
-          "winner": null,
-          "margin": null
+          "winner": "CHI",
+          "margin": "0-7"
         }
       }
     },
     {
-      "id": "w07-g06",
+      "id": "w07-g02",
+      "away": "PIT",
+      "home": "NO",
+      "awayScore": null,
+      "homeScore": null,
+      "status": "scheduled",
+      "picks": {
+        "Alex": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Enrique": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Oscar": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Esteban": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Luis": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Toño": {
+          "winner": "NO",
+          "margin": "0-7"
+        },
+        "Rich": {
+          "winner": "PIT",
+          "margin": "8+"
+        },
+        "Poncho": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Armando": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "César Luna": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Julio": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Ricardo Reis": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Pablo": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Ariel": {
+          "winner": "PIT",
+          "margin": "0-7"
+        },
+        "Yair": {
+          "winner": "PIT",
+          "margin": "0-7"
+        }
+      }
+    },
+    {
+      "id": "w07-g03",
+      "away": "SF",
+      "home": "ATL",
+      "awayScore": null,
+      "homeScore": null,
+      "status": "scheduled",
+      "picks": {
+        "Alex": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "Enrique": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "Oscar": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "Esteban": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "Luis": {
+          "winner": "SF",
+          "margin": "0-7"
+        },
+        "Toño": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "Rich": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "Poncho": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "Armando": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "César Luna": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "Julio": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "Ricardo Reis": {
+          "winner": "SF",
+          "margin": "0-7"
+        },
+        "Pablo": {
+          "winner": "SF",
+          "margin": "0-7"
+        },
+        "Ariel": {
+          "winner": "SF",
+          "margin": "8+"
+        },
+        "Yair": {
+          "winner": "SF",
+          "margin": "0-7"
+        }
+      }
+    },
+    {
+      "id": "w07-g04",
       "away": "CLE",
       "home": "TEN",
       "awayScore": null,
@@ -381,216 +221,344 @@
       "status": "scheduled",
       "picks": {
         "Alex": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
         },
         "Enrique": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "8+"
         },
         "Oscar": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
         },
         "Esteban": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
         },
         "Luis": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "8+"
         },
         "Toño": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
         },
         "Rich": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
         },
         "Poncho": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
         },
         "Armando": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "8+"
         },
         "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "8+"
         },
         "Julio": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
         },
         "Pablo": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
         },
         "Ariel": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
         },
         "Yair": {
-          "winner": null,
-          "margin": null
+          "winner": "CLE",
+          "margin": "0-7"
+        }
+      }
+    },
+    {
+      "id": "w07-g05",
+      "away": "IND",
+      "home": "MIN",
+      "awayScore": null,
+      "homeScore": null,
+      "status": "scheduled",
+      "picks": {
+        "Alex": {
+          "winner": "MIN",
+          "margin": "8+"
+        },
+        "Enrique": {
+          "winner": "MIN",
+          "margin": "8+"
+        },
+        "Oscar": {
+          "winner": "MIN",
+          "margin": "8+"
+        },
+        "Esteban": {
+          "winner": "MIN",
+          "margin": "8+"
+        },
+        "Luis": {
+          "winner": "MIN",
+          "margin": "0-7"
+        },
+        "Toño": {
+          "winner": "MIN",
+          "margin": "8+"
+        },
+        "Rich": {
+          "winner": "MIN",
+          "margin": "0-7"
+        },
+        "Poncho": {
+          "winner": "MIN",
+          "margin": "0-7"
+        },
+        "Armando": {
+          "winner": "MIN",
+          "margin": "0-7"
+        },
+        "César Luna": {
+          "winner": "MIN",
+          "margin": "8+"
+        },
+        "Julio": {
+          "winner": "MIN",
+          "margin": "0-7"
+        },
+        "Ricardo Reis": {
+          "winner": "MIN",
+          "margin": "8+"
+        },
+        "Pablo": {
+          "winner": "MIN",
+          "margin": "0-7"
+        },
+        "Ariel": {
+          "winner": "MIN",
+          "margin": "0-7"
+        },
+        "Yair": {
+          "winner": "MIN",
+          "margin": "0-7"
+        }
+      }
+    },
+    {
+      "id": "w07-g06",
+      "away": "MIA",
+      "home": "NYJ",
+      "awayScore": null,
+      "homeScore": null,
+      "status": "scheduled",
+      "picks": {
+        "Alex": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "Enrique": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "Oscar": {
+          "winner": "NYJ",
+          "margin": "8+"
+        },
+        "Esteban": {
+          "winner": "NYJ",
+          "margin": "8+"
+        },
+        "Luis": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "Toño": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "Rich": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "Poncho": {
+          "winner": "NYJ",
+          "margin": "8+"
+        },
+        "Armando": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "César Luna": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "Julio": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "Ricardo Reis": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "Pablo": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "Ariel": {
+          "winner": "NYJ",
+          "margin": "0-7"
+        },
+        "Yair": {
+          "winner": "NYJ",
+          "margin": "0-7"
         }
       }
     },
     {
       "id": "w07-g07",
-      "away": "DAL",
-      "home": "PHI",
+      "away": "TB",
+      "home": "CAR",
       "awayScore": null,
       "homeScore": null,
       "status": "scheduled",
       "picks": {
         "Alex": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "8+"
         },
         "Enrique": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "0-7"
         },
         "Oscar": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "0-7"
         },
         "Esteban": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "0-7"
         },
         "Luis": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "0-7"
         },
         "Toño": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "8+"
         },
         "Rich": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "0-7"
         },
         "Poncho": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "0-7"
         },
         "Armando": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "8+"
         },
         "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "0-7"
         },
         "Julio": {
-          "winner": null,
-          "margin": null
+          "winner": "TB",
+          "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "8+"
         },
         "Pablo": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "0-7"
         },
         "Ariel": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "0-7"
         },
         "Yair": {
-          "winner": null,
-          "margin": null
+          "winner": "CAR",
+          "margin": "0-7"
         }
       }
     },
     {
       "id": "w07-g08",
-      "away": "GB",
-      "home": "DET",
+      "away": "CIN",
+      "home": "BAL",
       "awayScore": null,
       "homeScore": null,
       "status": "scheduled",
       "picks": {
         "Alex": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "8+"
         },
         "Enrique": {
-          "winner": null,
-          "margin": null
+          "winner": "BAL",
+          "margin": "0-7"
         },
         "Oscar": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "0-7"
         },
         "Esteban": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "0-7"
         },
         "Luis": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "0-7"
         },
         "Toño": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "0-7"
         },
         "Rich": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "0-7"
         },
         "Poncho": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "0-7"
         },
         "Armando": {
-          "winner": null,
-          "margin": null
+          "winner": "BAL",
+          "margin": "0-7"
         },
         "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "0-7"
         },
         "Julio": {
-          "winner": null,
-          "margin": null
+          "winner": "BAL",
+          "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": null,
-          "margin": null
+          "winner": "BAL",
+          "margin": "0-7"
         },
         "Pablo": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "0-7"
         },
         "Ariel": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "0-7"
         },
         "Yair": {
-          "winner": null,
-          "margin": null
+          "winner": "CIN",
+          "margin": "0-7"
         }
       }
     },
@@ -603,216 +571,204 @@
       "status": "scheduled",
       "picks": {
         "Alex": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "8+"
         },
         "Enrique": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "0-7"
         },
         "Oscar": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "0-7"
         },
         "Esteban": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "8+"
         },
         "Luis": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "0-7"
         },
         "Toño": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "8+"
         },
         "Rich": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "0-7"
         },
         "Poncho": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "0-7"
         },
         "Armando": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "0-7"
         },
         "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
+          "winner": "NYG",
+          "margin": "0-7"
         },
         "Julio": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "8+"
         },
         "Ricardo Reis": {
-          "winner": null,
-          "margin": null
+          "winner": "NYG",
+          "margin": "0-7"
         },
         "Pablo": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "0-7"
         },
         "Ariel": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "0-7"
         },
         "Yair": {
-          "winner": null,
-          "margin": null
+          "winner": "HOU",
+          "margin": "8+"
         }
       }
     },
     {
       "id": "w07-g10",
-      "away": "IND",
-      "home": "MIN",
+      "away": "DEN",
+      "home": "ARI",
       "awayScore": null,
       "homeScore": null,
       "status": "scheduled",
       "picks": {
         "Alex": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         },
         "Enrique": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "8+"
         },
         "Oscar": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "8+"
         },
         "Esteban": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         },
         "Luis": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         },
         "Toño": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         },
         "Rich": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         },
         "Poncho": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "8+"
         },
         "Armando": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "8+"
         },
         "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         },
         "Julio": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         },
         "Pablo": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         },
         "Ariel": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         },
         "Yair": {
-          "winner": null,
-          "margin": null
+          "winner": "DEN",
+          "margin": "0-7"
         }
       }
     },
     {
       "id": "w07-g11",
-      "away": "KC",
-      "home": "SEA",
+      "away": "GB",
+      "home": "DET",
       "awayScore": null,
       "homeScore": null,
       "status": "scheduled",
       "picks": {
         "Alex": {
-          "winner": null,
-          "margin": null
+          "winner": "DET",
+          "margin": "0-7"
         },
         "Enrique": {
-          "winner": null,
-          "margin": null
+          "winner": "DET",
+          "margin": "0-7"
         },
         "Oscar": {
-          "winner": null,
-          "margin": null
+          "winner": "DET",
+          "margin": "0-7"
         },
         "Esteban": {
-          "winner": null,
-          "margin": null
+          "winner": "DET",
+          "margin": "0-7"
         },
         "Luis": {
-          "winner": null,
-          "margin": null
+          "winner": "DET",
+          "margin": "0-7"
         },
         "Toño": {
-          "winner": null,
-          "margin": null
+          "winner": "GB",
+          "margin": "0-7"
         },
         "Rich": {
-          "winner": null,
-          "margin": null
+          "winner": "GB",
+          "margin": "0-7"
         },
         "Poncho": {
-          "winner": null,
-          "margin": null
+          "winner": "DET",
+          "margin": "0-7"
         },
         "Armando": {
-          "winner": null,
-          "margin": null
+          "winner": "GB",
+          "margin": "0-7"
         },
         "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
+          "winner": "GB",
+          "margin": "0-7"
         },
         "Julio": {
-          "winner": null,
-          "margin": null
+          "winner": "DET",
+          "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": null,
-          "margin": null
+          "winner": "GB",
+          "margin": "8+"
         },
         "Pablo": {
-          "winner": null,
-          "margin": null
+          "winner": "GB",
+          "margin": "0-7"
         },
         "Ariel": {
-          "winner": null,
-          "margin": null
+          "winner": "DET",
+          "margin": "8+"
         },
         "Yair": {
-          "winner": null,
-          "margin": null
+          "winner": "GB",
+          "margin": "0-7"
         }
       }
     },
@@ -825,216 +781,204 @@
       "status": "scheduled",
       "picks": {
         "Alex": {
-          "winner": null,
-          "margin": null
+          "winner": "LAR",
+          "margin": "0-7"
         },
         "Enrique": {
-          "winner": null,
-          "margin": null
+          "winner": "LAR",
+          "margin": "0-7"
         },
         "Oscar": {
-          "winner": null,
-          "margin": null
+          "winner": "LAR",
+          "margin": "0-7"
         },
         "Esteban": {
-          "winner": null,
-          "margin": null
+          "winner": "LAR",
+          "margin": "0-7"
         },
         "Luis": {
-          "winner": null,
-          "margin": null
+          "winner": "LAR",
+          "margin": "0-7"
         },
         "Toño": {
-          "winner": null,
-          "margin": null
+          "winner": "LV",
+          "margin": "0-7"
         },
         "Rich": {
-          "winner": null,
-          "margin": null
+          "winner": "LAR",
+          "margin": "8+"
         },
         "Poncho": {
-          "winner": null,
-          "margin": null
+          "winner": "LAR",
+          "margin": "8+"
         },
         "Armando": {
-          "winner": null,
-          "margin": null
+          "winner": "LV",
+          "margin": "0-7"
         },
         "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
+          "winner": "LV",
+          "margin": "0-7"
         },
         "Julio": {
-          "winner": null,
-          "margin": null
+          "winner": "LAR",
+          "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": null,
-          "margin": null
+          "winner": "LV",
+          "margin": "0-7"
         },
         "Pablo": {
-          "winner": null,
-          "margin": null
+          "winner": "LAR",
+          "margin": "0-7"
         },
         "Ariel": {
-          "winner": null,
-          "margin": null
+          "winner": "LV",
+          "margin": "0-7"
         },
         "Yair": {
-          "winner": null,
-          "margin": null
+          "winner": "LAR",
+          "margin": "0-7"
         }
       }
     },
     {
       "id": "w07-g13",
-      "away": "MIA",
-      "home": "NYJ",
+      "away": "KC",
+      "home": "SEA",
       "awayScore": null,
       "homeScore": null,
       "status": "scheduled",
       "picks": {
         "Alex": {
-          "winner": null,
-          "margin": null
+          "winner": "SEA",
+          "margin": "0-7"
         },
         "Enrique": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         },
         "Oscar": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         },
         "Esteban": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         },
         "Luis": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         },
         "Toño": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "8+"
         },
         "Rich": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         },
         "Poncho": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         },
         "Armando": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "8+"
         },
         "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         },
         "Julio": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "8+"
         },
         "Pablo": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         },
         "Ariel": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         },
         "Yair": {
-          "winner": null,
-          "margin": null
+          "winner": "KC",
+          "margin": "0-7"
         }
       }
     },
     {
       "id": "w07-g14",
-      "away": "PIT",
-      "home": "NO",
+      "away": "DAL",
+      "home": "PHI",
       "awayScore": null,
       "homeScore": null,
       "status": "scheduled",
       "picks": {
         "Alex": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "8+"
         },
         "Enrique": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "0-7"
         },
         "Oscar": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "0-7"
         },
         "Esteban": {
-          "winner": null,
-          "margin": null
+          "winner": "PHI",
+          "margin": "0-7"
         },
         "Luis": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "0-7"
         },
         "Toño": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "8+"
         },
         "Rich": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "0-7"
         },
         "Poncho": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "0-7"
         },
         "Armando": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "0-7"
         },
         "César Luna": {
-          "winner": null,
-          "margin": null
-        },
-        "Fernando Lara": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "0-7"
         },
         "Julio": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "0-7"
         },
         "Ricardo Reis": {
-          "winner": null,
-          "margin": null
+          "winner": "PHI",
+          "margin": "0-7"
         },
         "Pablo": {
-          "winner": null,
-          "margin": null
+          "winner": "PHI",
+          "margin": "0-7"
         },
         "Ariel": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "0-7"
         },
         "Yair": {
-          "winner": null,
-          "margin": null
+          "winner": "DAL",
+          "margin": "0-7"
         }
       }
     }

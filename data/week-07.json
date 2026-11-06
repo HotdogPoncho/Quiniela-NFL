@@ -6,9 +6,9 @@
       "id": "w07-g01",
       "away": "NE",
       "home": "CHI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 24,
+      "homeScore": 30,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CHI",
@@ -70,15 +70,18 @@
           "winner": "CHI",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-23T00:15Z",
+      "venue": "Soldier Field"
     },
     {
       "id": "w07-g02",
       "away": "PIT",
       "home": "NO",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 16,
+      "homeScore": 10,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "PIT",
@@ -140,15 +143,18 @@
           "winner": "PIT",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T13:30Z",
+      "venue": "Stade de France"
     },
     {
       "id": "w07-g03",
       "away": "SF",
       "home": "ATL",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 20,
+      "homeScore": 29,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "SF",
@@ -210,15 +216,18 @@
           "winner": "SF",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T17:00Z",
+      "venue": "Mercedes-Benz Stadium"
     },
     {
       "id": "w07-g04",
       "away": "CLE",
       "home": "TEN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 27,
+      "homeScore": 24,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CLE",
@@ -280,15 +289,18 @@
           "winner": "CLE",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T17:00Z",
+      "venue": "Nissan Stadium"
     },
     {
       "id": "w07-g05",
       "away": "IND",
       "home": "MIN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 10,
+      "homeScore": 16,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "MIN",
@@ -350,15 +362,18 @@
           "winner": "MIN",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T17:00Z",
+      "venue": "U.S. Bank Stadium"
     },
     {
       "id": "w07-g06",
       "away": "MIA",
       "home": "NYJ",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 28,
+      "homeScore": 25,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "NYJ",
@@ -420,15 +435,18 @@
           "winner": "NYJ",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T17:00Z",
+      "venue": "MetLife Stadium"
     },
     {
       "id": "w07-g07",
       "away": "TB",
       "home": "CAR",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 43,
+      "homeScore": 13,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CAR",
@@ -490,15 +508,18 @@
           "winner": "CAR",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T17:00Z",
+      "venue": "Bank of America Stadium"
     },
     {
       "id": "w07-g08",
       "away": "CIN",
       "home": "BAL",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 35,
+      "homeScore": 13,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CIN",
@@ -560,15 +581,18 @@
           "winner": "CIN",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T17:00Z",
+      "venue": "M&T Bank Stadium"
     },
     {
       "id": "w07-g09",
       "away": "NYG",
       "home": "HOU",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 27,
+      "homeScore": 21,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "HOU",
@@ -630,15 +654,18 @@
           "winner": "HOU",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T17:00Z",
+      "venue": "Reliant Stadium"
     },
     {
       "id": "w07-g10",
       "away": "DEN",
       "home": "ARI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 30,
+      "homeScore": 16,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DEN",
@@ -700,15 +727,18 @@
           "winner": "DEN",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T20:05Z",
+      "venue": "State Farm Stadium"
     },
     {
       "id": "w07-g11",
       "away": "GB",
       "home": "DET",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 17,
+      "homeScore": 20,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DET",
@@ -770,15 +800,18 @@
           "winner": "GB",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T20:25Z",
+      "venue": "Ford Field"
     },
     {
       "id": "w07-g12",
       "away": "LAR",
       "home": "LV",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 35,
+      "homeScore": 21,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "LAR",
@@ -840,15 +873,18 @@
           "winner": "LAR",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-25T20:25Z",
+      "venue": "Allegiant Stadium"
     },
     {
       "id": "w07-g13",
       "away": "KC",
       "home": "SEA",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 3,
+      "homeScore": 20,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "SEA",
@@ -910,15 +946,18 @@
           "winner": "KC",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-26T00:20Z",
+      "venue": "Lumen Field"
     },
     {
       "id": "w07-g14",
       "away": "DAL",
       "home": "PHI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 38,
+      "homeScore": 21,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DAL",
@@ -980,7 +1019,10 @@
           "winner": "DAL",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-10-27T00:15Z",
+      "venue": "Lincoln Financial Field"
     }
   ]
 }

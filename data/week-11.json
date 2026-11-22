@@ -6,9 +6,9 @@
       "id": "w11-g01",
       "away": "IND",
       "home": "HOU",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 3,
+      "homeScore": 26,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "HOU",
@@ -70,7 +70,10 @@
           "winner": "HOU",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": "",
+      "startDate": "2026-11-20T01:15Z",
+      "venue": "Reliant Stadium"
     },
     {
       "id": "w11-g02",
@@ -140,7 +143,10 @@
           "winner": "BUF",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-22T18:00Z",
+      "venue": "Highmark Stadium"
     },
     {
       "id": "w11-g03",
@@ -210,7 +216,10 @@
           "winner": "CHI",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-22T18:00Z",
+      "venue": "Soldier Field"
     },
     {
       "id": "w11-g04",
@@ -280,7 +289,10 @@
           "winner": "DAL",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-22T18:00Z",
+      "venue": "AT&T Stadium"
     },
     {
       "id": "w11-g05",
@@ -350,7 +362,10 @@
           "winner": "DET",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-22T18:00Z",
+      "venue": "Ford Field"
     },
     {
       "id": "w11-g06",
@@ -420,7 +435,10 @@
           "winner": "KC",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-22T18:00Z",
+      "venue": "Arrowhead Stadium"
     },
     {
       "id": "w11-g07",
@@ -490,7 +508,10 @@
           "winner": "JAC",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-22T21:25Z",
+      "venue": "MetLife Stadium"
     },
     {
       "id": "w11-g08",
@@ -560,7 +581,10 @@
           "winner": "CAR",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-22T18:00Z",
+      "venue": "Bank of America Stadium"
     },
     {
       "id": "w11-g09",
@@ -630,7 +654,10 @@
           "winner": "LAC",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-22T21:05Z",
+      "venue": "SoFi Stadium"
     },
     {
       "id": "w11-g10",
@@ -700,7 +727,10 @@
           "winner": "DEN",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-22T21:25Z",
+      "venue": "Empower Field at Mile High"
     },
     {
       "id": "w11-g11",
@@ -770,7 +800,10 @@
           "winner": "PIT",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-22T18:00Z",
+      "venue": "Lincoln Financial Field"
     },
     {
       "id": "w11-g12",
@@ -840,7 +873,10 @@
           "winner": "SF",
           "margin": "0-7"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-23T01:20Z",
+      "venue": "Estadio Banorte"
     },
     {
       "id": "w11-g13",
@@ -910,7 +946,10 @@
           "winner": "CIN",
           "margin": "8+"
         }
-      }
+      },
+      "liveDetail": null,
+      "startDate": "2026-11-24T01:15Z",
+      "venue": "Northwest Stadium"
     }
   ]
 }

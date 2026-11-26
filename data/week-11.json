@@ -79,9 +79,9 @@
       "id": "w11-g02",
       "away": "MIA",
       "home": "BUF",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 9,
+      "homeScore": 26,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "BUF",
@@ -144,7 +144,7 @@
           "margin": "8+"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-22T18:00Z",
       "venue": "Highmark Stadium"
     },
@@ -152,9 +152,9 @@
       "id": "w11-g03",
       "away": "NO",
       "home": "CHI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 13,
+      "homeScore": 21,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CHI",
@@ -217,7 +217,7 @@
           "margin": "8+"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-22T18:00Z",
       "venue": "Soldier Field"
     },
@@ -225,9 +225,9 @@
       "id": "w11-g04",
       "away": "TEN",
       "home": "DAL",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 30,
+      "homeScore": 51,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DAL",
@@ -290,7 +290,7 @@
           "margin": "0-7"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-22T18:00Z",
       "venue": "AT&T Stadium"
     },
@@ -298,9 +298,9 @@
       "id": "w11-g05",
       "away": "TB",
       "home": "DET",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 21,
+      "homeScore": 31,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DET",
@@ -363,7 +363,7 @@
           "margin": "0-7"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-22T18:00Z",
       "venue": "Ford Field"
     },
@@ -371,9 +371,9 @@
       "id": "w11-g06",
       "away": "ARI",
       "home": "KC",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 7,
+      "homeScore": 34,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "KC",
@@ -436,7 +436,7 @@
           "margin": "8+"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-22T18:00Z",
       "venue": "Arrowhead Stadium"
     },
@@ -444,9 +444,9 @@
       "id": "w11-g07",
       "away": "JAC",
       "home": "NYG",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 18,
+      "homeScore": 23,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "JAC",
@@ -509,7 +509,7 @@
           "margin": "8+"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-22T21:25Z",
       "venue": "MetLife Stadium"
     },
@@ -517,9 +517,9 @@
       "id": "w11-g08",
       "away": "BAL",
       "home": "CAR",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 33,
+      "homeScore": 35,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CAR",
@@ -582,7 +582,7 @@
           "margin": "0-7"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-22T18:00Z",
       "venue": "Bank of America Stadium"
     },
@@ -590,9 +590,9 @@
       "id": "w11-g09",
       "away": "NYJ",
       "home": "LAC",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 27,
+      "homeScore": 24,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "LAC",
@@ -655,7 +655,7 @@
           "margin": "0-7"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-22T21:05Z",
       "venue": "SoFi Stadium"
     },
@@ -663,9 +663,9 @@
       "id": "w11-g10",
       "away": "LV",
       "home": "DEN",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 24,
+      "homeScore": 38,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "DEN",
@@ -728,7 +728,7 @@
           "margin": "8+"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-22T21:25Z",
       "venue": "Empower Field at Mile High"
     },
@@ -736,9 +736,9 @@
       "id": "w11-g11",
       "away": "PIT",
       "home": "PHI",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 16,
+      "homeScore": 19,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "PIT",
@@ -801,7 +801,7 @@
           "margin": "8+"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-22T18:00Z",
       "venue": "Lincoln Financial Field"
     },
@@ -809,9 +809,9 @@
       "id": "w11-g12",
       "away": "MIN",
       "home": "SF",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 10,
+      "homeScore": 35,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "SF",
@@ -874,7 +874,7 @@
           "margin": "0-7"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-23T01:20Z",
       "venue": "Estadio Banorte"
     },
@@ -882,9 +882,9 @@
       "id": "w11-g13",
       "away": "CIN",
       "home": "WAS",
-      "awayScore": null,
-      "homeScore": null,
-      "status": "scheduled",
+      "awayScore": 20,
+      "homeScore": 22,
+      "status": "final",
       "picks": {
         "Alex": {
           "winner": "CIN",
@@ -947,7 +947,7 @@
           "margin": "8+"
         }
       },
-      "liveDetail": null,
+      "liveDetail": "",
       "startDate": "2026-11-24T01:15Z",
       "venue": "Northwest Stadium"
     }
